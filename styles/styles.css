@@ -153,8 +153,17 @@ main {
     color: rgba(255,255,255,0.7);
 }
 
-.border-thick-yellow {
+.border-thick-left {
     border-left: 5px solid #17A2B8;
+    border-radius: 5px;
+}
+.border-thick-right {
+    border-right: 5px solid #17A2B8;
+    border-radius: 5px;
+}
+
+.border-thick-bottom {
+    border-bottom: 5px solid #17A2B8;
     border-radius: 5px;
 }
 
@@ -164,3 +173,4 @@ main {
 #banner h2{
 	font-size: 45px;
 }
+
