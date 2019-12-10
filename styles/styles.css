@@ -22,6 +22,7 @@ main {
 .footer_p{
 	color: black;
 	line-height: 25px;
+	text-align: justify;
 }
 
 .footer h2,h3{
