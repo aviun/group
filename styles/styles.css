@@ -158,3 +158,9 @@ main {
     border-radius: 5px;
 }
 
+#banner h1 {
+	font-size: 60px;
+}
+#banner h2{
+	font-size: 45px;
+}
