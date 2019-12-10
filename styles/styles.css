@@ -174,3 +174,36 @@ main {
 	font-size: 45px;
 }
 
+@media print{
+    header, nav, aside, footer, #banner{
+        display: none;
+    }
+    
+}
+@media print{
+	h1{
+		page-break-before: always;
+		break-before: always;
+	}
+}
+@media print{
+    h2,h3,h4,h5,h6{
+        page-break-after: avoid;
+    }
+}
+
+@media print{
+	table, figure{
+		page-break-inside: avoid;
+		break-inside: avoid;
+	}
+}
+
+@media print{
+	a[href^="http"]::after{
+		content: "("attr(href)")";
+	}
+}
+
+
+
