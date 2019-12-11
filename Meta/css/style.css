@@ -246,3 +246,8 @@ ul a{
 .yellow-text {
 	color: #A66C0B !important;
 }
+
+.table-header {
+	margin: auto;
+	text-align: center;
+}
