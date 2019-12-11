@@ -21,6 +21,12 @@ body{
 }
 
 
+
+ul a{
+	padding: 25px;
+}
+
+
 /*  ------------------------------
 	.class Selectors
 	------------------------------
@@ -32,11 +38,13 @@ body{
 	width: 94%;
 	max-width: 1200px;
 	font-family: "Comic Sans MS", cursive, sans-serif;
+
 }
 
 .content {
 	position: relative;
 	padding-top: 80px;
+
 }
 
 .content h1,h2,h3,h4,h5,h6{
@@ -95,6 +103,10 @@ body{
 
 .center{
 	text-align: center;
+}
+
+.nested-list {
+	margin-left: 10px;
 }
 
 
@@ -160,6 +172,17 @@ body{
 	text-align: center;
 }
 
+#sitemap li {
+	margin: 25px;
+	
+}
+
+
+#sitemap {
+	margin-top: 25px;
+	background-color: white;
+	padding-bottom: 25px;
+}
 
 /* 	
 	------------------------
@@ -214,4 +237,12 @@ body{
 	font-weight: bold;
 }
 
-	
+.green-text {
+	color: #087A64 !important;
+}
+.red-text {
+	color: #A00A1F !important; 
+}
+.yellow-text {
+	color: #A66C0B !important;
+}
