@@ -157,6 +157,12 @@ main {
     border-left: 5px solid #17A2B8;
     border-radius: 5px;
 }
+
+.border-thick-left-yellow{
+    border-left: 5px solid #FFC106;
+    border-radius: 5px;
+}
+
 .border-thick-right {
     border-right: 5px solid #17A2B8;
     border-radius: 5px;
@@ -207,3 +213,11 @@ main {
 
 
 
+#text-books img {
+	max-width: 100%;
+}
+
+#text-books a {
+	text-decoration: none;
+	font-size: smaller;
+}
