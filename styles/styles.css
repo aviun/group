@@ -1,4 +1,21 @@
+/*  ------------------------------------------------------------
+	Authors: Elena Moe (A01158749); Anastasiia Viun (A01162432)
+	------------------------------------------------------------
+*/
 
+/* 	------------------------------
+	HTML Selectors
+	------------------------------
+*/
+main {
+    font-size: smaller;
+}
+
+/*  
+	------------------------------
+	.class Selectors
+	------------------------------
+*/
 .box-shadow {
     border-radius: 5px;
     -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
@@ -6,21 +23,7 @@
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
 }
 
-#hidden-header {
-	display: none;
-}
-main {
-    font-size: smaller;
-}
-
-#inner-nav a {
-    font-size: smaller;
-}
-
-#navbar .dropdown-menu{
-    z-index: 2000;
-}
-
+/* Footer */
 
 .footer_p{
 	color: black;
@@ -136,24 +139,9 @@ main {
 	color:#0134a3;
 }
 
-#banner {
-    background-image: url(/students/aviun/group/images/sky.jpg);
-    width: 100%;
-    height: 400px !important;
-    background-repeat: no-repeat;
-    background-position: center center; 
-}
-
-
-
 .text-border {
     border: 1px solid rgba(255,255,255,0.7);
     vertical-align: middle;
-}
-
-#banner h1, #banner h2 {
-    flex-basis: 100%;
-    color: rgba(255,255,255,0.7);
 }
 
 .border-thick-left {
@@ -175,6 +163,35 @@ main {
     border-bottom: 5px solid #17A2B8;
     border-radius: 5px;
 }
+/* 
+	 -------------------------------
+	#id Selectors
+	-------------------------------
+*/
+
+/* Navigation */
+
+#inner-nav a {
+    font-size: smaller;
+}
+
+#navbar .dropdown-menu{
+    z-index: 2000;
+}
+
+/* Banner */
+#banner {
+    background-image: url(/students/aviun/group/images/sky.jpg);
+    width: 100%;
+    height: 400px !important;
+    background-repeat: no-repeat;
+    background-position: center center; 
+}
+
+#banner h1, #banner h2 {
+    flex-basis: 100%;
+    color: rgba(255,255,255,0.7);
+}
 
 #banner h1 {
 	font-size: 60px;
@@ -182,6 +199,8 @@ main {
 #banner h2{
 	font-size: 45px;
 }
+
+/* Resources (Books) */
 
 #text-books img {
 	max-width: 100%;
@@ -191,6 +210,16 @@ main {
 	text-decoration: none;
 	font-size: smaller;
 }
+
+#hidden-header {
+	display: none;
+}
+
+/* 	
+	----------------------------
+	For Printer Friendly Styles 
+	----------------------------
+*/
 
 @media print{
     header, nav, aside, footer, #banner{
